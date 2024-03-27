@@ -1,0 +1,9 @@
+TODO
+
+VERSION CONTROL - GIT (GITHUB?)
+
+Create schematic for lamp wiring
+Fix redundant logic in state machine?
+
+Add date, cycle, energy tracking via JSON file
+multi threading
