@@ -1,9 +1,7 @@
 TODO
 
-VERSION CONTROL - GIT (GITHUB?)
+Create schematic for grow lamp wiring. 
+Change mechanical relays to solid state. Flashing from 120VAC arcs causes relays to fail over time.
 
-Create schematic for lamp wiring
-Fix redundant logic in state machine?
-
-Add date, cycle, energy tracking via JSON file
-multi threading
+Add framework for tracking with JSON tracking. Maybe start a proper database (Needs research?)
+Start Node application and start integration for web control interface.
