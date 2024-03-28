@@ -24,8 +24,10 @@ def startSchedule() :
         
         #Check if the Lamp is supposed to be On. Turn on if True.
         #If true reverse scheduler array to make next schedule lampOffScheduler
-        if time.mktime(nowTime) > time.mktime(lampOnTime) and time.mktime(nowTime) < time.mktime(time.strptime('23:59:59', '%H:%M:%S')):
+        #Add one day to current (86400 seconds) lampOnTimeValue so light will turn on according to schedule tomorrow
+        if time.mktime(nowTime) > time.mktime(lampOnTime) and time.mktime(nowTime) < time.mktime(lampOffTime):
             switch.lampOn()
+            lampOnScheduler.enterabs(time.mktime(lampOnTime) + float(86400), 1 , switch.lampOn, ())
             timeArray = [lampOffScheduler, lampOnScheduler]
         
         #Run each scheduler in order. Exit loop to reset time time objects to the current date.
