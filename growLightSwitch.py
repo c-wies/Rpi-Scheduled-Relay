@@ -14,6 +14,8 @@ lampState = False
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(RELAY_PIN, GPIO.OUT)
+GPIO.output(RELAY_PIN, GPIO.HIGH)
+
 #Check/Set lampState
 if GPIO.input(RELAY_PIN):
     lampState = False
