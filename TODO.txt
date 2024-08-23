@@ -1,7 +1,0 @@
-TODO
-
-Create schematic for grow lamp wiring. 
-Change mechanical relays to solid state. Flashing from 120VAC arcs causes relays to fail over time.
-
-Add framework for tracking with JSON tracking. Maybe start a proper database (Needs research?)
-Start Node application and start integration for web control interface.
