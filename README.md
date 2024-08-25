@@ -21,5 +21,5 @@ Until I update the code (my setup is torn down, so I can't test for a while) her
 
 ## Feedback
 
-At the time of writing I've been layed off from my technicians job and am putting all my time into studying programming and hopefully making a career change. I would be more than happy to see any obvious improvments that can be made to this hack if anybody takes the time. Submit a pull request or send me an email at wiesner.connor@gmail.com if you have any pointers!
+At the time of writing I've been layed off from my technicians job and am putting all my time into studying programming and hopefully making a career change. I would be more than happy to see any obvious improvments that can be made to this hack if anybody takes the time. Submit a pull request or send me an email at connor.gdw@outlook.com if you have any pointers!
 
